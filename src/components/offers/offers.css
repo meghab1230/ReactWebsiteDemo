@@ -1,0 +1,61 @@
+*{
+    font-family:'poppins';
+}
+.offers{
+    display: flex;
+    margin: auto;
+    padding: 0px 140px;
+    margin-bottom: 50px;
+    background-image: url(../Assets/exc.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 60%;
+    height: 80vh; /* or desired height */
+
+
+}
+.offers-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.offers-left h1{
+    color: #f0e8dc;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.offers-left p{
+    color: #f0e8dc;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.offers-left button{
+    width: 282px;
+    height: 70px;
+    border-radius: 35px;
+    background-color: #6b705c;
+    border: none;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 30px;
+    cursor: pointer;
+    
+}
+
+.offers-left button:hover{
+    transform: scale(1.05);
+}
+
+.offers-right{
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}

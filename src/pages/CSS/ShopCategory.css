@@ -1,0 +1,90 @@
+.shopcategory {
+    font-family: 'Poppins', sans-serif;
+    color: #2e2e2e;
+    background-color: #fefefe;
+  }
+  
+  .shopcategory-banner {
+    display: block;
+    margin: 30px auto;
+    width: 85%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .shopcategory-banner:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+  }
+  
+  .shopcategory-indexSort {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 8%;
+    font-size: 18px;
+    color: #444;
+    transition: color 0.3s;
+  }
+  
+  .shopcategory-sort {
+    padding: 10px 24px;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    background-color: #fff;
+    font-size: 16px;
+    transition: all 0.3s ease;
+  }
+  
+  .shopcategory-sort:hover {
+    background-color: #f4f4f4;
+    transform: translateY(-2px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  }
+  
+  .shopcategory-products {
+    /* margin: 40px 8%;
+    display: grid;
+    
+    gap: 40px;
+    transition: all 0.3s ease; */
+    margin-top:50px;
+    display: grid;
+    gap: 30px;
+    font-family:  'Poppins', sans-serif;
+    color: #6b705c;
+    grid-template-columns: 1fr  1fr  1fr  1fr;
+   
+  }
+
+  .shopcategory-products img{
+    border-radius: 10px;
+  }
+
+
+  
+  .shopcategory-loadmore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto 50px auto;
+    width: 230px;
+    height: 65px;
+    border-radius: 60px;
+    color: #ededed;
+    background: #6b705c;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: transform 0.3s ease, background 0.3s ease;
+  }
+  
+  .shopcategory-loadmore:hover {
+    /* background: #e0e0e0; */
+    transform: scale(1.05);
+  }
+  

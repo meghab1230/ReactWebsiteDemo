@@ -1,0 +1,35 @@
+.newCollections{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+
+}
+
+.newCollections h1{
+    color: #6b705c;
+    font-size: 50px;
+    font-weight: 600;
+   
+    font-family: 'poppins';
+}
+
+
+.collections{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 50px;
+    gap: 30px;
+    font-family:  'Poppins', sans-serif;
+    color: #6b705c;
+    /* margin-bottom: 10px; */
+}
+
+.collections img{
+    border-radius: 10px;
+   
+  
+      
+    
+}
